@@ -1,0 +1,228 @@
+/* Basic styling */
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px 40px 40px 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.navbar ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center; 
+}
+
+.navbar li {
+    display: inline-block; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #b08916;
+}
+
+/* About section */
+.about {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 40px 40px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about h2 {
+    margin-bottom: 0px;
+}
+
+.about p {
+    margin-top: 5px;
+    color: #3b3939;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* Skills section */
+.skills {
+    background-image: url(./imgs/skills.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin: 10px 40px 40px 40px;
+    border-radius: 10px;
+}
+
+.skills h2 {
+    color: #3b3939;
+}
+
+.skills-content {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(0px);
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center; 
+}
+
+.skill-list li {
+    display: inline-block;
+    color: white;
+    background-color: rgb(101, 203, 101);
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+}
+
+.skill-list li:hover {
+    background-color: rgb(47, 108, 47);
+    top: -10px; 
+}
+
+/* Projects section */
+.projects {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 40px 20px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.projects .card1,
+.projects .card2,
+.projects .card3,
+.projects .card4 {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.projects .card1 {
+    background-color: orange;
+}
+
+.projects .card2 {
+    background-color: rgb(51, 12, 246);
+}
+
+.projects .card3 {
+    width: 102%; 
+    height: 250px;
+    background-color: rgb(64, 60, 85);
+}
+
+.projects .card4 {
+    background-color: rgb(148, 28, 161);
+    position: absolute;
+    top: -450px;
+}
+
+/* Contact section */
+.contact {
+    background-color: rgb(224, 210, 210);
+    padding: 20px;
+    margin: 10px 40px 20px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.contact h2 {
+    margin-bottom: 0;
+}
+
+.contact p {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #fff;
+    color: rgb(19, 113, 19);
+    padding: 10px 20px;
+    border: 1px solid rgb(19, 113, 19);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(19, 113, 19);
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin: 10px 40px 40px 40px;
+    border-radius: 10px;
+    text-align: center;
+    border-top: 1px solid #444;
+}
+
+footer p {
+    margin: 5px;
+}
+footer a {
+    color: #b08916;
+    text-decoration: none;
+}
+
+/* Scroll to Top Button */
+.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(40, 40, 200);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    z-index: 1000;
+}
